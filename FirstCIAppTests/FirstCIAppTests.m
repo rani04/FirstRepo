@@ -34,4 +34,11 @@
     XCTAssertTrue((x==y), @"Test Example Passed");
 }
 
+- (void)testExample2
+{
+    int x = 2;
+    int y = 2;
+    //    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssertTrue((x*y==x*x), @"Test Example Passed");
+}
 @end
