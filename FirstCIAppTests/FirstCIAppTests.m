@@ -28,8 +28,10 @@
 
 - (void)testExample
 {
+    int x = 2;
+    int y = 2;
 //    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-    XCTAssertTrue((2==2), @"Test Example Passed");
+    XCTAssertTrue((x==y), @"Test Example Passed");
 }
 
 @end
